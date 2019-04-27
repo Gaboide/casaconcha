@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Proyecto</title>
+</head>
+<style media="screen">
+
+h1{
+  font-style:italic;
+  font-size: 70px;
+  color: white;
+  background: Brown;
+  width: 100%;
+  margin:10px auto;
+  padding: 50px;
+}
+  .navbar {
+    list-style: none;
+    display: inline;
+
+  }
+  .navbar li{
+  color: black;
+  display: inline;
+  padding: 10px;
+  }
+
+  li{
+padding: 1px 1px;
+ }
+   li:hover{
+     background: Brown;
+     color: white;
+   }
+   /*Menu*/
+   h2{
+     width: 400px;
+     margin: auto;
+     font-size: 20px;
+     padding: 10px;
+     text-align: center;
+
+   }
+   .subtema p{
+     width: 500px;
+     margin: 10px auto;
+     font-size: 18px;
+   }
+img {
+  height: auto;
+  width: 600px;
+  margin: auto;
+  display: block;
+  padding: 1px;
+}
+img:hover{
+  background-color:brown;
+
+}
+p {
+  margin: 10px auto;
+  width:600px;
+  text-align: justify;
+  color: gray;
+}
+#taco {
+float: left;
+width: 50%
+}
+
+#mole {
+  float: right;
+  width: 50%;
+}
+.clr {
+  clear: both;
+}
+</style>
+
+<body>
+  <center>
+<h1>CASA CONCHA</h1>
+  <ul class="navbar">
+    <li>INICIO</li>
+    <li>NOTICIAS</li>
+    <li>PRODUCTOS</li>
+    <li>A DONDE IR</li>
+    <li>BEBIDAS</li>
+    <li>RECETAS</li>
+  </ul>
+</center>
+  <hr>
+  <div class="chile">
+    <img src="https://images.pexels.com/photos/1091778/pexels-photo-1091778.jpeg?cs=srgb&dl=background-cayenne-chili-1091778.jpg&fm=jpg" alt="">
+   <h2>TEORIA Y DEFINICION DEL CHILE</h2>
+    <div class="subtema">
+    <p>El chile es originario de México, Centro y Sudamérica. Se cultiva en tierras templadas y calientes.</p>
+    </div>
+   <p>El nombre viene del nahuatl, chilliy se aplica a numerosas variedades y formas de la palnta herbacea o subarbustiva anualCapsicium annum, de la familia de las solanaceas, aunque algunas corresponden a la especie arbustivo pereneC.frutescens.Las flores son hermafroditas, axilares, solitarias, pedunculadas,blancas,verdosas.El chile en la gastronomia mexicana es imprescindible para dar sabor a cualquier platillo y es, sin duda, el condimento nacional por excelencia.En Mexico se conocen mas de 100 tipos de chile. <a href="#">Ver mas...</a></p><br><hr>
+
+     <div class="cacao">
+       <img src="https://images.pexels.com/photos/50707/cocoa-man-colombia-peasant-50707.jpeg?cs=srgb&dl=cacao-close-up-cocoa-50707.jpg&fm=jpg" alt="">
+      <h2> BEBIDA ANCESTRAL DE DIOSES, CACAO!!!</h2>
+       <div class="subtema">
+       <p>El Cacao no fue descubierto por nuestros antepasados españoles hasta principios del siglo XVI,</p>
+       </div>
+      <p>La palabra maya con que se designaba al grano “cacau” derivaba de la voz antigua “chacahuaa”.Durante los años de conquista la bebida del “Xocoatl Azteca” era apreciada no solo por su sabor, sino por su valor estimulante.Como tal, en una de sus cartas, Hernán Cortés se la describió a Carlos V asegurando que bastaba con una taza de esa bebida indígena, para sostener las fuerzas de un soldado durante todo un día de marcha.  <a href="#">Ver mas...</a></p>
+    </div><br><hr>
+
+    <div class="maiz">
+      <img src="https://images.pexels.com/photos/1527005/pexels-photo-1527005.jpeg?cs=srgb&dl=close-up-color-colorful-corn-1527005.jpg&fm=jpg" alt="">
+     <h2>UNA HISTORIA INCREIBLE: EL MAIZ.</h2>
+      <div class="subtema">
+      <p>El maíz tiene un origen muy antiguo e interesante y juega un papel central en muchos mitos y leyendas nativos de América. </p>
+      </div>
+     <p>El 15 de noviembre de 1492 dos mensajeros de Colón, al regresar de una exploración a Cuba, declararon haber visto "una clase de grano, que llaman maíz, de buen sabor cocinado, seco y en harina". El maíz se fue encontrando luego sucesivamente en toda América, desde Chile hasta Canadá. Aunque los conquistadores no llegaron a darse cuenta de ello, este grano dorado nativo de América era de mayor importancia para el mundo que todo el oro y la plata de México y el Perú.  <a href="#">Ver mas...</a></p>
+   </div><br><hr>
+
+   <div id="taco">
+       <img src="https://images.pexels.com/photos/2087748/pexels-photo-2087748.jpeg?cs=srgb&dl=blur-close-up-cuisine-2087748.jpg&fm=jpg" alt="">
+   </div>
+   <div id="mole">
+     <img src="https://images.pexels.com/photos/2165159/pexels-photo-2165159.jpeg?cs=srgb&dl=barbecue-booth-cuisine-2165159.jpg&fm=jpg" alt="">
+   </div>
+   <br><br><br>
+   <hr>
+   <div class="clr"></div>
+
+   </body>
+
+</html>
